@@ -17,7 +17,8 @@ st.write("Cluster countries based on development indicators using multiple clust
 
 @st.cache_data
 def load_data():
-    return pd.read_excel("World_development_mesurement.xlsx")
+    return pd.read_excel("data.xlsx")
+
 
 df = load_data()
 
